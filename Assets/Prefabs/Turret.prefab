@@ -109,6 +109,7 @@ GameObject:
   - component: {fileID: 5110348399987479916}
   - component: {fileID: 5110348399987479913}
   - component: {fileID: 5110348399987479914}
+  - component: {fileID: 1529174429327381554}
   m_Layer: 0
   m_Name: Barrel
   m_TagString: Untagged
@@ -181,6 +182,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &1529174429327381554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5110348399987479917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a90051ad71cd4690a1ed70282befbc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 3161855422886973217, guid: 53b62a883c3f84f60810dbc851137748, type: 3}
+  fireTimeInterval: 5
 --- !u!1 &5110348400743746512
 GameObject:
   m_ObjectHideFlags: 0
